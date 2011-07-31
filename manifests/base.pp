@@ -1,5 +1,4 @@
-class pyzor::debian {
-  #also just tested in debian
+class pyzor::base {
   package { "pyzor":
     ensure => installed,
   }
